@@ -1,0 +1,35 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_ios_security_suite (0.0.1):
+    - Flutter
+    - IOSSecuritySuite
+  - integration_test (0.0.1):
+    - Flutter
+  - IOSSecuritySuite (1.9.10)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_ios_security_suite (from `.symlinks/plugins/flutter_ios_security_suite/ios`)
+  - integration_test (from `.symlinks/plugins/integration_test/ios`)
+
+SPEC REPOS:
+  trunk:
+    - IOSSecuritySuite
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_ios_security_suite:
+    :path: ".symlinks/plugins/flutter_ios_security_suite/ios"
+  integration_test:
+    :path: ".symlinks/plugins/integration_test/ios"
+
+SPEC CHECKSUMS:
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  flutter_ios_security_suite: 609726d5a7e2566ee3c12c2003782fce2d99bf12
+  integration_test: 13825b8a9334a850581300559b8839134b124670
+  IOSSecuritySuite: e764318117aabd1f894cbdfc5ac013a59352953d
+
+PODFILE CHECKSUM: 70d9d25280d0dd177a5f637cdb0f0b0b12c6a189
+
+COCOAPODS: 1.13.0
