@@ -20,7 +20,7 @@ This Flutter package provides the following security checks:
 1. Add this to your package's `pubspec.yaml` file:
 ```yaml
 dependencies:
-  flutter_ios_security_suite: ^0.0.1
+  flutter_ios_security_suite: ^0.0.2
 ```
 2. Update the Info.plist in your Flutter iOS project to include:
 ``` xml

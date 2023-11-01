@@ -1,15 +1,9 @@
-import 'flutter_ios_security_suite_platform_interface.dart';
 
-class FlutterIosSecuritySuite {
-  Future<bool?> amIJailbroken() {
-    return FlutterIosSecuritySuitePlatform.instance.amIJailbroken();
-  }
 
-  Future<bool?> amIDebugged() {
-    return FlutterIosSecuritySuitePlatform.instance.amIDebugged();
-  }
+/// This library is a wrapper for the iOS Security Suite pod
+/// export class FlutterIosSecuritySuite
+/// with methods as amIJailbroken, amIDebugged and amIReverseEngineered
+/// Note: This library is only for iOS
+library flutter_ios_security_suite;
 
-  Future<bool?> amIReverseEngineered() {
-    return FlutterIosSecuritySuitePlatform.instance.amIReverseEngineered();
-  }
-}
+export 'src/flutter_ios_security_suite.dart';

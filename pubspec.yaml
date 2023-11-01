@@ -1,11 +1,11 @@
 name: flutter_ios_security_suite
 description: A Flutter package that integrates the IOSSecuritySuite iOS pod to provide enhanced iOS security features in Flutter applications.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/JAYDARANIYA/flutter_ios_security_suite
 
 environment:
-  sdk: '>=3.1.5 <4.0.0'
-  flutter: '>=3.3.0'
+  sdk: ">=2.17.0 <4.0.0"
+  flutter: ">=3.10.0"
 
 dependencies:
   flutter:

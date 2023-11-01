@@ -1,3 +1,6 @@
+## 0.0.2
+* Added function docs
+
 ## 0.0.1
 
 * initial release
